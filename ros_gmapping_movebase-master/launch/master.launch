@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="final_assignment" type="master.py" name="master" output="screen" launch-prefix="konsole -e" />
+    <node pkg="final_assignment" type="movebase_client.py" name="movebase_client" output="screen" launch-prefix="konsole -e" />
+    <node pkg="final_assignment" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard" output="screen" launch-prefix="konsole -e" />
+</launch>
